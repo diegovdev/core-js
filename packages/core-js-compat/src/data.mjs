@@ -2107,9 +2107,6 @@ export const data = {
   },
   'esnext.function.metadata': {
   },
-  // TODO: Remove from `core-js@4`
-  'esnext.function.un-this': {
-  },
   'esnext.iterator.constructor': {
     chrome: '122',
     deno: '1.37',
