@@ -1998,8 +1998,6 @@ export const data = {
     rhino: '1.7.13',
     safari: '10.0',
   },
-  // TODO: Remove this module from `core-js@4` since it's replaced to module below
-  'es.weak-set': null,
   'es.weak-set.constructor': {
     chrome: '51',
     edge: '15',
@@ -2631,7 +2629,6 @@ export const data = {
 
 export const renamed = new Map([
   // TODO: Clean in `core-js@4`
-  ['es.weak-set', 'es.weak-set.constructor'],
   ['esnext.array-buffer.detached', 'es.array-buffer.detached'],
   ['esnext.array-buffer.transfer', 'es.array-buffer.transfer'],
   ['esnext.array-buffer.transfer-to-fixed-length', 'es.array-buffer.transfer-to-fixed-length'],
@@ -2667,7 +2664,6 @@ export const ignored = [
   'es.promise.race',
   'es.promise.reject',
   'es.promise.resolve',
-  'es.weak-set.constructor',
   'esnext.observable.constructor',
   'esnext.observable.from',
   'esnext.observable.of',
