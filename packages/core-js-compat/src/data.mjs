@@ -2019,10 +2019,6 @@ export const data = {
   },
   'esnext.function.demethodize': {
   },
-  'esnext.function.is-callable': {
-  },
-  'esnext.function.is-constructor': {
-  },
   'esnext.function.metadata': {
   },
   'esnext.iterator.constructor': {
